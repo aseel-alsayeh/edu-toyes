@@ -1,0 +1,51 @@
+body header h1 {color:rgba(0, 140, 255, 0.356);}
+h1 {text-align:center;}
+nav ul li { display: inline-block;
+margin:45 px;}
+body nav {background-color:rgb(146, 181, 201);}
+nav ul li a{margin:150px;padding: 15px;color:white;text-decoration:none;}
+section img {display:block;
+width:200px;
+height:200px;}
+section1 img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  left:500px;
+  top:115px;
+  width: 250px;
+  height:200px ;}
+section2 img { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position:absolute;
+  left:1090px;
+  top:115px;
+  width: 250px;
+  height:200px ;}
+
+section {background-color:rgba(128, 128, 128, 0.199);
+width:400px;}
+section p {
+    width: 30%;
+    position: absolute;
+    left: 230px;
+    top: 185px;
+}
+
+section2 p {background-color:rgba(128, 128, 128, 0.199);
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    right: 260px;
+        text-align: center;
+    padding: 15px;
+    padding-top: 90px;
+    height: 95px;}
+body{background-image: url(https://videohive.img.customer.envatousercontent.com/files/f79d2e3c-74ce-41d3-bd6f-abd591e8fd06/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=2c2bc3750b9267afd2ce33384acd3bf7);
+background-repeat: no-repeat;
+background-position:right bottom;
+background-size: 1500px 1500px}
+footer {text-align:center;margin:30px;}
+footer img {width:200px;height: 100px;}
