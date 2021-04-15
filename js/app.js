@@ -7,6 +7,15 @@ var msg2 = '<img src="https://png.pngtree.com/png-vector/20190830/ourlarge/pngtr
 
 document.write (msg1);
 document.write (msg2);
+    var mom ="mom"
+    var dad = "dad"
+    var par = prompt('Are you mom or dad');
+   while (par !== mom && par !== dad)
+   {
+     par = prompt('Are you mom or dad');
+   }
+
+
 } else if (parents=='no')
 { /*var link 
 document.write("<a href="https://web.whatsapp.com">") ;
@@ -21,8 +30,24 @@ document.write (msg3);
   if (confirm('are you looking for a gift? ')) {
     txt = "cheak out our Market page";
     document.write (txt)
-  } else {
+    
+    var NumGifts = prompt( "How many of choices of gifts do you want to see?")
+    var NumImg
+    var msg4  = '<img src="https://thumbs.nosto.com/quick/bigcommerce-ufhcuzfxw9/8/11609/54f9ea7553cb344299a6c5ace44bb154782f1a04e2092baeaf7bd6de7fd6e5faa/A" alt="gift" width="150px">'
+
+ for(NumImg=1;NumImg<=NumGifts;NumImg++)
+ {
+    document. write (msg4);
+ }
+
+
+
+ } 
+ 
+ else {
     txt = "You pressed Cancel!";
   }
 
 console.log(txt)
+ 
+
