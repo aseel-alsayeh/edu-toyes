@@ -1,4 +1,5 @@
-body header h1 {color:rgba(0, 140, 255, 0.356);}
+body header h1 {color:rgb(146, 181, 201);
+text-shadow: 2px 2px rgba(0, 26, 255, 0.568)}
 h1 {text-align:center;
 background-image: url(https://cdn02.plentymarkets.com/2brofzsczyt8/item/images/172464/full/Tapete-Kinder-Karo-Rauten-Rasch-Textil-blau-weiss-.jpg);
 padding-top: 100px ;
